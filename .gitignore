@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor folders and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# OS-specific
+ehthumbs.db
+Desktop.ini
+
+# Vercel / deployment
+.vercel/
+.vercel_build_output/
+
+# Dependencies cache
+package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
