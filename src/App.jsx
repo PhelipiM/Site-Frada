@@ -288,14 +288,9 @@ function Header() {
         scrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
+      <div className="max-w-6xl mx-auto flex items-center justify-between p-6">
         {/* Logo + nome */}
         <div className="flex items-center gap-3">
-          <img
-            src="frada1.png"
-            alt="Logo FRADA"
-            className="w-12 h-12 object-contain"
-          />
           <h1 className="text-2xl font-bold text-teal-700">FRADA</h1>
         </div>
 
